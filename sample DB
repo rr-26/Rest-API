@@ -1,0 +1,12 @@
+
+For a new entry of data below is the given sample. 
+
+$ curl localhost:8080/meetings -X POST -d '{"Id":"id2","Title":"LEVEL 1","Participants":"Mukesh","Start_Time":1000,"End_Time":2000,"Creation_time_stamp":1000}' -H "Content-Type: application/json"
+
+$ curl localhost:8080/meetings -X POST -d '{"Id":"id3","Title":"LEVEL 2","Participants":"Anand","Start_Time":2000,"End_Time":3000,"Creation_time_stamp":1000}' -H "Content-Type: application/json"
+
+$ curl localhost:8080/meetings -X POST -d '{"Id":"id4","Title":"LEVEL 3","Participants":"Vibhakar","Start_Time":3000,"End_Time":4000,"Creation_time_stamp":1000}' -H "Content-Type: application/json"
+
+$ curl localhost:8080/meetings -X POST -d '{"Id":"id5","Title":"LEVEL 4","Participants":"Abhijeet","Start_Time":4000,"End_Time":5000,"Creation_time_stamp":1000}' -H "Content-Type: application/json"
+
+$ curl localhost:8080/meetings -X POST -d '{"Id":"id6","Title":"LEVEL 5","Participants":"Anvesh","Start_Time":5000,"End_Time":6000,"Creation_time_stamp":1000}' -H "Content-Type: application/json"
